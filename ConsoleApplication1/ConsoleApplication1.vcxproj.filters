@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Game Engine Modules">
+      <UniqueIdentifier>{0085fb86-be90-4550-ab95-649fede87b57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Engine Modules\Affector">
+      <UniqueIdentifier>{a9c5491b-84a0-47a7-b26a-be3136c759f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Engine Modules\Color">
+      <UniqueIdentifier>{0487bd64-21b7-4809-9697-936a382c0816}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Engine Modules\GUI">
+      <UniqueIdentifier>{eb39e862-d0e7-4753-8494-9f2700309ab6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Engine Modules\Libraries">
+      <UniqueIdentifier>{66c32e32-b538-40b7-b5c2-5d4584b156ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Engine Modules\Object">
+      <UniqueIdentifier>{a25c07f5-d15c-46fd-9511-d0dbfb6428a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Engine Modules\Collision">
+      <UniqueIdentifier>{4ff5de57-d419-4ec2-8efd-785e186ff054}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Engine Modules\Networking">
+      <UniqueIdentifier>{956abc18-a76d-4e1a-bec7-76f78f290ccb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Engine Modules\Sprite">
+      <UniqueIdentifier>{f8d083c9-09c5-439c-b2cc-0c121079a151}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Engine Modules\Rendering">
+      <UniqueIdentifier>{81589bef-b157-4f36-9554-75aaf1b3c705}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Engine Modules\Transform">
+      <UniqueIdentifier>{b17cfcc3-801c-4d8b-b120-f65c7463beb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Engine Modules\Sound">
+      <UniqueIdentifier>{b5d2d4ef-d608-444b-b914-a789de83593f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Application.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="bitmap.h">
+      <Filter>Game Engine Modules\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="nuklear.h">
+      <Filter>Game Engine Modules\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="nuklear_glfw_gl2.h">
+      <Filter>Game Engine Modules\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="Color.h">
+      <Filter>Game Engine Modules\Color</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorDeclaration.h">
+      <Filter>Game Engine Modules\Color</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI.h">
+      <Filter>Game Engine Modules\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector3.h">
+      <Filter>Game Engine Modules\Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="Transformation.h">
+      <Filter>Game Engine Modules\Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleObject.h">
+      <Filter>Game Engine Modules\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Game Engine Modules\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Affector.h">
+      <Filter>Game Engine Modules\Affector</Filter>
+    </ClInclude>
+    <ClInclude Include="AffectorDeclaration.h">
+      <Filter>Game Engine Modules\Affector</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIStyle.h">
+      <Filter>Game Engine Modules\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>Game Engine Modules\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="CollideGameObject.h">
+      <Filter>Game Engine Modules\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjectTag.h">
+      <Filter>Game Engine Modules\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="EmitterShape.h">
+      <Filter>Game Engine Modules\Affector</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision.h">
+      <Filter>Game Engine Modules\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="MyPhoton.h">
+      <Filter>Game Engine Modules\Networking</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Game Engine Modules\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="Rendering.h">
+      <Filter>Game Engine Modules\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="AllHeader.h">
+      <Filter>Game Engine Modules\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="FmodSoundSystem.h">
+      <Filter>Game Engine Modules\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleSystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ConsoleApplication1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Application.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CollideGameObject.cpp">
+      <Filter>Game Engine Modules\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision.cpp">
+      <Filter>Game Engine Modules\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="MyPhoton.cpp">
+      <Filter>Game Engine Modules\Networking</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Game Engine Modules\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Game Engine Modules\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="stb_image.cpp">
+      <Filter>Game Engine Modules\Libraries</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector3.cpp">
+      <Filter>Game Engine Modules\Transform</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleSystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
